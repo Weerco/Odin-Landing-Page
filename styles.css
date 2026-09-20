@@ -1,0 +1,162 @@
+@import url('https://googleapis.com');
+
+html, body {
+    background-color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #1F2937;
+}
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15vw;
+    font-size: 24px;
+}
+.header > nav {
+display: flex;
+    gap: 20px;
+}
+
+/* first section */
+
+#first-section {
+    box-sizing: border-box;
+    padding: 3vw 15vw 5vw;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+#sign-up {
+    background-color: #3882F6;
+    width: 150px;
+    height: 50px;
+    color: #F9FAF8;
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.title-h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.subtext, a {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.awesome, .cat-1 {
+    flex: 1;
+}
+.cat-1 {
+    display: flex;
+    justify-content: flex-end;
+}
+/* second section */
+
+#second-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 0vw;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.title-h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+#cat-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    max-width:min-content;
+    font-size: 18px;
+}
+.illustration {
+    border-radius: 15px;
+}
+/* third section */
+#third-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+.inspiring {
+    padding: 5vw 28vw;
+
+}
+.quote {
+    margin: 0px;
+}
+.thor{
+    text-align: right;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0px;
+}
+/* fourth section */
+#fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 18vw;
+}
+.call {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    flex: 1;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.call-2 {
+    color:#F9FAF8;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0px;
+}
+.product {
+    font-size: 24px;
+    color:#c4c7cd;
+    margin: 0px;
+}
+#sign-up-2 {
+    background-color: #3882F6;
+    width: 150px;
+    height: 50px;
+    color: white;
+    box-shadow: none;
+    border-style:solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: #E5E7EB;
+}
+
+/* footer */
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 150px;
+}
